@@ -120,9 +120,12 @@ This tests how intensity, familiarity, chemical features (PC1), sex, age predict
 
 This is central to olfactory science. Writes output to model_summary.txt
 ## USE CASE:
-it learns:
+It learns:
+
 ✔ What odors should smell like to a healthy person
+
 ✔ How pleasant, intense, or familiar each molecule typically is
+
 ✔ What chemical patterns produce certain perceptions
 
 Then it compares a patient's responses to these predicted patterns.
