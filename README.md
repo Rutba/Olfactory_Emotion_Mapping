@@ -96,14 +96,11 @@ This project supports a computational olfaction research project by doing the fo
 
   This lets you analyze how chemistry predicts perception.
 ### 2. Preparing Data for Statistical Modeling
-    The pipeline sets up:
-      * clean data
-      
-      * standardized variables
-      
-      * PCA-reduced chemical features
-
-      Needed for valid regression, machine learning, or predictive modeling.
+  The pipeline sets up:
+    * clean data
+    * standardized variables
+    * PCA-reduced chemical features
+Needed for valid regression, machine learning, or predictive modeling.
 ### 3. Exploratory Data Analysis
       * Histogram of pleasantness
       * Scatterplot: intensity vs pleasantness
