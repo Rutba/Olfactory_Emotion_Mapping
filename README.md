@@ -16,6 +16,7 @@ The two datasets:
     * Perceptual qualities: pleasantness, intensity, descriptors
     * Odor vocabulary
     * Links to the molecular ID
+      
 These datasets are widely used in computational olfaction research. They are absolutely real, peer-validated chemical/perceptual datasets.
 In this project dataset (data.xlsx) is participant-level behavior ratings (e.g., pleasantness, intensity, familiarity, demographics).
 
