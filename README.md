@@ -89,17 +89,17 @@ PCA provides latent chemical dimensions for psychological modeling.
 ## Project Description
 This project supports a computational olfaction research project by doing the following:
 ### 1. Integrating chemistry + human behavior
-      It links:
-        * molecular structure
-        * descriptor features
-        * participant perceptual responses
+  It links:
+      * molecular structure
+      * descriptor features
+      * participant perceptual responses
 
         This lets you analyze how chemistry predicts perception.
 ### 2. Preparing Data for Statistical Modeling
-      The pipeline sets up:
-        * clean data
-        * standardized variables
-        * PCA-reduced chemical features
+    The pipeline sets up:
+      * clean data
+      * standardized variables
+      * PCA-reduced chemical features
 
         Needed for valid regression, machine learning, or predictive modeling.
 ### 3. Exploratory Data Analysis
