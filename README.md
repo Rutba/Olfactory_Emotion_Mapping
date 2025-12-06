@@ -61,6 +61,5 @@ To produce a dataset where each row = participant* molecule, including
   * chemical features
   * molecular descriptors
   * participant ratings
-  * 
 This is the core dataset for modeling
 
