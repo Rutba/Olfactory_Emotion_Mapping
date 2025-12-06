@@ -88,31 +88,30 @@ PCA provides latent chemical dimensions for psychological modeling.
 
 ## Project Description
 This project supports a computational olfaction research project by doing the following:
-  ### 1. Integrating chemistry + human behavior
+### 1. Integrating chemistry + human behavior
       It links:
         * molecular structure
         * descriptor features
         * participant perceptual responses
 
         This lets you analyze how chemistry predicts perception.
-  ### 2. Preparing Data for Statistical Modeling
+### 2. Preparing Data for Statistical Modeling
       The pipeline sets up:
         * clean data
         * standardized variables
         * PCA-reduced chemical features
 
         Needed for valid regression, machine learning, or predictive modeling.
-  ### Exploratory Data Analysis
+### 3. Exploratory Data Analysis
         * Histogram of pleasantness
         * Scatterplot: intensity vs pleasantness
         * Correlation matrix of z-scores
-  ### 3. Predicting pleasantness from other variables
+### 4. Predicting pleasantness from other variables
       The final regression models:
-      ** `pleasantness_z ~ intensity_z + familiarity_z + chemical PC1 + sex + age`**
-      
-        This tests how intensity, familiarity, chemical features (PC1), sex, age predict  pleasantness ratings.
+      ** `pleasantness_z ~ intensity_z + familiarity_z + chemical PC1 + sex + age`** 
+      This tests how intensity, familiarity, chemical features (PC1), sex, age predict  pleasantness ratings.
           * What makes an odor pleasant?
           * Do demographics matter?
           * Do chemical features directly predict pleasure?
           
-          This is central to olfactory science. Writes output to model_summary.txt
+      This is central to olfactory science. Writes output to model_summary.txt
